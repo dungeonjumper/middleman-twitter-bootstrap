@@ -1,4 +1,4 @@
-source :rubygems
+source "https://rubygems.org"
 
 
 gem "haml"
@@ -14,4 +14,5 @@ gem 'bootstrap-sass', '~> 2.2.2.0'
 gem 'susy', "~>1.0.1" # Susy
 # gem 'compass-960-plugin' # 960.gs
 
-gem 'wdm', '~> 0.0.3'
+# Windows Directory Monitor
+# gem 'wdm', '~> 0.0.3'
