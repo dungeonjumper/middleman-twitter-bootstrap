@@ -1,34 +1,19 @@
-# Middleman Twitter Bootstrap
+## About Middleman Twitter Bootstrap
 
+Middleman Twitter Bootstrap is my starting point for static site generation using [Middleman](http://middlemanapp.com/). It is forked from [middleman-twitter-bootstrap](http://github.com/novemberkilo/middleman-twitter-bootstrap) which draws from [middleman-bootstrap](http://github.com://fujimogn/middleman-bootstrap). Aside from Middleman and [Twitter Bootstrap](http://twitter.github.com/bootstrap), I've included a few customizations, pages, and partials that suit my needs.
 
-## What is it?
+Great for rapid prototyping, wireframing, or simply generating static pages using a responsive grid framework.
 
-Middleman Twitter Bootstrap is my clean project starting point for the [Middleman](http://middlemanapp.com/) static site generator. 
+## Features
 
-It sets up <kbd>middleman</kbd> for blogging and pulls in the [twitter-bootstrap](http://twitter.github.com/bootstrap/) framework. It also sets up code highlighting using
-[highlight.js](http://softwaremaniacs.org/soft/highlight/en/).
+* Bootstrap
+* HAML
+* SASS
 
-And that's all it does.
+## Installation and Usage
 
-This project draws heavily from Ayumi Fujii's [middleman-bootstrap](https://github.com/fujimogn/middleman-bootstrap), delivering a simpler setup that is based on 
-<kbd>haml</kbd> instead of <kbd>slim</kbd> and without using [Font Awesome.](http://fortawesome.github.com/Font-Awesome/) 
-Also see Nathan Henderson's [middleman-bootstrap](https://github.com/nathos/middleman-bootstrap) for a starting point that uses other grid systems and HTML5 Boilerplate.
-
-## Usage
-
-_Quick setup:_ Assuming you have Ruby setup, download this project, then <kdb>bundle install</kbd> and then <kbd>bundle exec middleman</kbd>. Now visit <kbd>http://localhost:4567</kbd>
-
-Check Middleman's [documentation](https://github.com/middleman/middleman) for details. 
-
-## License
-
-* Twitter Bootstrap: Apache License v2.0
-* Middleman: Copyright (c) 2010 Thomas Reynolds. MIT Licensed
-* jQuery: MIT/GPL license
-* highlight.js: Copyright (c) 2006, Ivan Sagalaev
-
-Similarly, refer to each component for its license.
-
-Everything else:
-
-* [The Unlicense](http://unlicense.org/) (aka: public domain)
+1. Make sure you have Ruby and Rubygems.
+2. If you haven't already, install Middleman using <kbd>gem install middleman</kbd>.
+3. Navigate to the project folder and <kbd>bundle install</kbd>.
+4. Start the development server using <kbd>bundle exec middleman</kbd>. Preview at <kbd>http://localhost:4567</kbd>.
+Visit [Middleman's documentation](http://middlemanapp.com) for more details.
